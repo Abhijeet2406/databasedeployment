@@ -1,0 +1,19 @@
+# Deployment Summary
+
+- **Environment:** `LOCAL-SQL`
+- **User:** `test`
+- **Completion Time:** `2025-07-01 01:05:58`
+- **Status:** `SUCCESS`
+
+---
+## Executed Scripts
+
+- ✅ `1_AlterEmployee.sql`
+- ✅ `2_AddDepartmentProc.sql`
+
+---
+## Touched Objects Log
+
+- Updated schema for table `dbo.Employees` in Git path.
+- Data in table `dbo.Employees` was modified by script `1_AlterEmployee.sql`.
+- Updated `PROCEDURE` `dbo.usp_AddEmployee` in Git.
