@@ -2,8 +2,8 @@
 
 - **Environment:** `LOCAL-SQL`
 - **User:** `test`
-- **Completion Time:** `2025-07-01 13:37:20`
-- **Status:** `FAILED`
+- **Completion Time:** `2025-07-01 13:57:52`
+- **Status:** `ROLLED_BACK`
 
 ---
 ## Executed Scripts
