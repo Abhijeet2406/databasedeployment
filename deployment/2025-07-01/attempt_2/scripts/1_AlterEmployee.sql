@@ -1,2 +1,2 @@
 ALTER TABLE Employees
-ADD Flag VARCHAR(1) DEFAULT DF_Employees_Flag 'Y'
+ADD Flag VARCHAR(1) CONSTRAINT DF_Employees_Flag DEFAULT 'Y';
