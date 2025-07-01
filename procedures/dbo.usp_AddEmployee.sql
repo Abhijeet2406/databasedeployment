@@ -1,6 +1,4 @@
--- Auto-generated backup for dbo.usp_AddEmployee from SQLServer on 2025-07-01 01:05:57
-
--- Sample Procedure
+-- Auto-generated backup for dbo.usp_AddEmployee from SQLServer on 2025-07-01 14:04:04
 CREATE PROCEDURE usp_AddEmployee
     @Name NVARCHAR(100),
     @Department NVARCHAR(100)
