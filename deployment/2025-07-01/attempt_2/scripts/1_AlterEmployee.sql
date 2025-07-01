@@ -1,0 +1,2 @@
+ALTER TABLE Employees
+ADD Flag VARCHAR(1) DEFAULT 'Y'
