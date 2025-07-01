@@ -1,5 +1,3 @@
-ALTER TABLE dbo.[Employees] 
-DROP CONSTRAINT DF__Employees__Flag__1F98B2C1
-
-ALTER TABLE dbo.[Employees] 
-DROP COLUMN Flag;
+ALTER TABLE dbo.Employees 
+DROP CONSTRAINT IF EXISTS DF_Employees_Flag, 
+              COLUMN IF EXISTS Flag;
