@@ -4,6 +4,5 @@ CREATE TABLE dbo.Employees (
     [EmployeeID] INT,
     [Name] NVARCHAR(100),
     [Department] NVARCHAR(100),
-    [CreatedDate] DATETIME,
-    [Flag] VARCHAR(1)
+    [CreatedDate] DATETIME
 );
