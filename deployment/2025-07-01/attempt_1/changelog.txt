@@ -2,18 +2,16 @@
 
 - **Environment:** `LOCAL-SQL`
 - **User:** `test`
-- **Completion Time:** `2025-07-01 14:04:05`
-- **Status:** `SUCCESS`
+- **Completion Time:** `2025-07-01 14:13:42`
+- **Status:** `ROLLED_BACK`
 
 ---
 ## Executed Scripts
 
 - ✅ `1_AlterEmployee.sql`
-- ✅ `2_AddDepartmentProc.sql`
 
 ---
 ## Touched Objects Log
 
 - Updated schema for table `dbo.Employees` in Git path.
 - Data in table `dbo.Employees` was modified by script `1_AlterEmployee.sql`.
-- Updated `PROCEDURE` `dbo.usp_AddEmployee` in Git.
