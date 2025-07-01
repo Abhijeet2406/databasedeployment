@@ -6,6 +6,6 @@ CREATE OR ALTER PROCEDURE usp_AddEmployee
     @Department NVARCHAR(100)
 AS
 BEGIN
-    INSERT INTO Employees1 (Name, Department) VALUES (@Name, @Department);
+    INSERTA INTO Employees1 (Name, Department) VALUES (@Name, @Department);
 END;
 GO
