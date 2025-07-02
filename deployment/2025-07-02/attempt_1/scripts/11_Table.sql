@@ -1,0 +1,2 @@
+ALTER TABLE dbo.Employees
+ADD Flag VARCHAR(1) CONSTRAINT DF_Employees_Flag DEFAULT 'Y';
