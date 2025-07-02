@@ -1,0 +1,19 @@
+# Deployment Summary
+
+- **Environment:** `QA`
+- **User:** `av6828@att.com`
+- **Completion Time:** `2025-07-02 14:06:58`
+- **Status:** `FAILED`
+
+---
+## Executed Scripts
+
+- ✅ `11_Table.sql`
+- ✅ `12_SP.sql`
+
+---
+## Touched Objects Log
+
+- Updated schema for table `dbo.Employees` in Git path.
+- Data in table `dbo.Employees` was modified by script `11_Table.sql`.
+- Updated `PROCEDURE` `dbo.usp_AddEmployee` in Git.
